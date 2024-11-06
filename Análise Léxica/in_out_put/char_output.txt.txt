@@ -1,0 +1,38 @@
+['a'] -> TIPO CHAR
+
+['1'] -> TIPO CHAR
+
+['@'] -> TIPO CHAR
+
+['.'] -> TIPO CHAR
+
+['\n'] -> TIPO CHAR
+
+[' '] -> TIPO CHAR
+
+['] -> ERRO
+['] -> ERRO
+
+['] -> ERRO
+[1] -> ERRO
+[2] -> ERRO
+[3] -> ERRO
+['] -> ERRO
+
+['] -> ERRO
+[a] -> IDENTIFICADOR
+[=] -> ERRO
+['] -> ERRO
+
+[a] -> IDENTIFICADOR
+[.] -> ERRO
+[n] -> IDENTIFICADOR
+
+['] -> ERRO
+[a] -> IDENTIFICADOR
+
+[a] -> IDENTIFICADOR
+['] -> ERRO
+
+[\] -> ERRO
+[n] -> IDENTIFICADOR

@@ -1,0 +1,329 @@
+[FLOAT] -> PALAVRA RESERVADA
+
+[CHAR] -> PALAVRA RESERVADA
+
+[LISTA] -> PALAVRA RESERVADA
+
+[BOOL] -> PALAVRA RESERVADA
+
+[CONST] -> PALAVRA RESERVADA
+
+[ESCREVER] -> PALAVRA RESERVADA
+
+[LER] -> PALAVRA RESERVADA
+
+[SE] -> PALAVRA RESERVADA
+
+[ENTAO] -> PALAVRA RESERVADA
+
+[SENAO] -> PALAVRA RESERVADA
+
+[ENQUANTO] -> PALAVRA RESERVADA
+
+[FAÇA] -> PALAVRA RESERVADA
+
+[PROGRAMA] -> PALAVRA RESERVADA
+
+[PREX] -> PALAVRA RESERVADA
+
+[1] -> ERRO
+[FLOAT] -> PALAVRA RESERVADA
+
+[f] -> ERRO
+[l] -> ERRO
+[o] -> ERRO
+[a] -> ERRO
+[t] -> ERRO
+
+[F] -> ERRO
+[l] -> ERRO
+[o] -> ERRO
+[a] -> ERRO
+[t] -> ERRO
+
+[F] -> ERRO
+[l] -> ERRO
+[o] -> ERRO
+[a] -> ERRO
+[T] -> ERRO
+
+[2] -> ERRO
+[CHAR] -> PALAVRA RESERVADA
+
+[c] -> ERRO
+[h] -> ERRO
+[a] -> ERRO
+[r] -> ERRO
+
+[C] -> ERRO
+[h] -> ERRO
+[a] -> ERRO
+[r] -> ERRO
+
+[c] -> ERRO
+[H] -> ERRO
+[A] -> ERRO
+[R] -> ERRO
+
+[3] -> ERRO
+[LISTA] -> PALAVRA RESERVADA
+
+[l] -> ERRO
+[i] -> ERRO
+[s] -> ERRO
+[t] -> ERRO
+[a] -> ERRO
+
+[L] -> ERRO
+[i] -> ERRO
+[s] -> ERRO
+[t] -> ERRO
+[a] -> ERRO
+
+[l] -> ERRO
+[I] -> ERRO
+[S] -> ERRO
+[T] -> ERRO
+[A] -> ERRO
+
+[4] -> ERRO
+[BOOL] -> PALAVRA RESERVADA
+
+[b] -> ERRO
+[o] -> ERRO
+[o] -> ERRO
+[l] -> ERRO
+
+[B] -> ERRO
+[o] -> ERRO
+[o] -> ERRO
+[l] -> ERRO
+
+[b] -> ERRO
+[O] -> ERRO
+[O] -> ERRO
+[L] -> ERRO
+
+[5] -> ERRO
+[CONST] -> PALAVRA RESERVADA
+
+[c] -> ERRO
+[o] -> ERRO
+[n] -> ERRO
+[s] -> ERRO
+[t] -> ERRO
+
+[C] -> ERRO
+[o] -> ERRO
+[n] -> ERRO
+[s] -> ERRO
+[t] -> ERRO
+
+[c] -> ERRO
+[O] -> ERRO
+[N] -> ERRO
+[S] -> ERRO
+[T] -> ERRO
+
+[6] -> ERRO
+[ESCREVER] -> PALAVRA RESERVADA
+
+[e] -> ERRO
+[s] -> ERRO
+[c] -> ERRO
+[r] -> ERRO
+[e] -> ERRO
+[v] -> ERRO
+[e] -> ERRO
+[r] -> ERRO
+
+[E] -> ERRO
+[s] -> ERRO
+[c] -> ERRO
+[r] -> ERRO
+[e] -> ERRO
+[v] -> ERRO
+[e] -> ERRO
+[r] -> ERRO
+
+[e] -> ERRO
+[S] -> ERRO
+[C] -> ERRO
+[R] -> ERRO
+[E] -> ERRO
+[V] -> ERRO
+[E] -> ERRO
+[R] -> ERRO
+
+[7] -> ERRO
+[LER] -> PALAVRA RESERVADA
+
+[l] -> ERRO
+[e] -> ERRO
+[r] -> ERRO
+
+[L] -> ERRO
+[e] -> ERRO
+[r] -> ERRO
+
+[l] -> ERRO
+[E] -> ERRO
+[R] -> ERRO
+
+[8] -> ERRO
+[SE] -> PALAVRA RESERVADA
+
+[s] -> ERRO
+[e] -> ERRO
+
+[S] -> ERRO
+[e] -> ERRO
+
+[s] -> ERRO
+[E] -> ERRO
+
+[9] -> ERRO
+[ENTAO] -> PALAVRA RESERVADA
+
+[e] -> ERRO
+[n] -> ERRO
+[t] -> ERRO
+[a] -> ERRO
+[o] -> ERRO
+
+[E] -> ERRO
+[n] -> ERRO
+[t] -> ERRO
+[a] -> ERRO
+[o] -> ERRO
+
+[e] -> ERRO
+[N] -> ERRO
+[T] -> ERRO
+[A] -> ERRO
+[O] -> ERRO
+
+[1] -> ERRO
+[0] -> ERRO
+[SENAO] -> PALAVRA RESERVADA
+
+[s] -> ERRO
+[e] -> ERRO
+[n] -> ERRO
+[a] -> ERRO
+[o] -> ERRO
+
+[S] -> ERRO
+[e] -> ERRO
+[n] -> ERRO
+[a] -> ERRO
+[o] -> ERRO
+
+[s] -> ERRO
+[E] -> ERRO
+[N] -> ERRO
+[A] -> ERRO
+[O] -> ERRO
+
+[1] -> ERRO
+[1] -> ERRO
+[ENQUANTO] -> PALAVRA RESERVADA
+
+[e] -> ERRO
+[n] -> ERRO
+[q] -> ERRO
+[u] -> ERRO
+[a] -> ERRO
+[n] -> ERRO
+[t] -> ERRO
+[o] -> ERRO
+
+[E] -> ERRO
+[n] -> ERRO
+[q] -> ERRO
+[u] -> ERRO
+[a] -> ERRO
+[n] -> ERRO
+[t] -> ERRO
+[o] -> ERRO
+
+[e] -> ERRO
+[N] -> ERRO
+[Q] -> ERRO
+[U] -> ERRO
+[A] -> ERRO
+[N] -> ERRO
+[T] -> ERRO
+[O] -> ERRO
+
+[1] -> ERRO
+[2] -> ERRO
+[FAÇA] -> PALAVRA RESERVADA
+
+[f] -> ERRO
+[a] -> ERRO
+[�] -> ERRO
+[�] -> ERRO
+[a] -> ERRO
+
+[F] -> ERRO
+[a] -> ERRO
+[�] -> ERRO
+[�] -> ERRO
+[a] -> ERRO
+
+[f] -> ERRO
+[A] -> ERRO
+[�] -> ERRO
+[�] -> ERRO
+[A] -> ERRO
+
+[1] -> ERRO
+[3] -> ERRO
+[PROGRAMA] -> PALAVRA RESERVADA
+
+[p] -> ERRO
+[r] -> ERRO
+[o] -> ERRO
+[g] -> ERRO
+[r] -> ERRO
+[a] -> ERRO
+[m] -> ERRO
+[a] -> ERRO
+
+[P] -> ERRO
+[r] -> ERRO
+[o] -> ERRO
+[g] -> ERRO
+[r] -> ERRO
+[a] -> ERRO
+[m] -> ERRO
+[a] -> ERRO
+
+[p] -> ERRO
+[R] -> ERRO
+[O] -> ERRO
+[G] -> ERRO
+[R] -> ERRO
+[A] -> ERRO
+[M] -> ERRO
+[A] -> ERRO
+
+[1] -> ERRO
+[4] -> ERRO
+[PREX] -> PALAVRA RESERVADA
+
+[p] -> ERRO
+[r] -> ERRO
+[e] -> ERRO
+[x] -> ERRO
+
+[P] -> ERRO
+[r] -> ERRO
+[e] -> ERRO
+[x] -> ERRO
+
+[p] -> ERRO
+[R] -> ERRO
+[E] -> ERRO
+[X] -> ERRO

@@ -1,0 +1,49 @@
+[+22.0] -> TIPO FLOAT
+
+[+22.01] -> TIPO FLOAT
+
+[-22.0] -> TIPO FLOAT
+
+[-22.01] -> TIPO FLOAT
+
+[22.0] -> TIPO FLOAT
+
+[22.01] -> TIPO FLOAT
+
+[896.34] -> TIPO FLOAT
+
+[+0.1] -> TIPO FLOAT
+
+[+0.10] -> TIPO FLOAT
+
+[+0.01] -> TIPO FLOAT
+
+[-0.01] -> TIPO FLOAT
+
+[0.01] -> TIPO FLOAT
+
+[0.0] -> TIPO FLOAT
+
+[0.00] -> TIPO FLOAT
+
+[2] -> ERRO
+
+[+] -> ERRO
+[2] -> ERRO
+
+[+] -> ERRO
+[2] -> ERRO
+[.] -> ERRO
+
+[1.00] -> TIPO FLOAT
+[0] -> ERRO
+
+[-] -> ERRO
+[ ] -> ERRO
+[2.2] -> TIPO FLOAT
+
+[+] -> ERRO
+[0.0] -> TIPO FLOAT
+
+[-] -> ERRO
+[0.0] -> TIPO FLOAT

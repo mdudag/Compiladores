@@ -1,0 +1,12 @@
+[0] -> TIPO BOOL
+
+[1] -> TIPO BOOL
+
+[0] -> TIPO BOOL
+[1] -> TIPO BOOL
+
+[1] -> TIPO BOOL
+[0] -> TIPO BOOL
+
+[0] -> TIPO BOOL
+[0] -> TIPO BOOL

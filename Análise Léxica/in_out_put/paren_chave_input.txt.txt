@@ -1,0 +1,9 @@
+BOOL n = 1;
+FLOAT B2;
+SE (n) ENTAO {
+    B2 = -45.67;
+    CHAR c = '@';
+}
+SENAO {
+    B2 = 0.0;
+}
