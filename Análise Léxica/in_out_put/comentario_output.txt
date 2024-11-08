@@ -1,0 +1,30 @@
+[\\] -> COMENTARIO
+
+[\
+\] -> COMENTARIO
+
+[\ \] -> COMENTARIO
+
+[\Hello Word 123\] -> COMENTARIO
+
+[\ HELLO
+WORD 123\] -> COMENTARIO
+
+[\HELLO
+ WORD
+  123
+  
+\] -> COMENTARIO
+
+[A] -> ERRO
+[1] -> ERRO
+[\m\] -> COMENTARIO
+
+[\m\] -> COMENTARIO
+[A] -> ERRO
+[2] -> ERRO
+
+[A] -> ERRO
+[3] -> ERRO
+[\
+m\] -> COMENTARIO
