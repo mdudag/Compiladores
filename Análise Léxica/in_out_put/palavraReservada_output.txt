@@ -20,310 +20,142 @@
 
 [ENQUANTO] -> PALAVRA RESERVADA
 
-[FAÇA] -> PALAVRA RESERVADA
+[FA] -> IDENTIFICADOR
+[�] -> ERRO
+[�] -> ERRO
+[A] -> IDENTIFICADOR
 
 [PROGRAMA] -> PALAVRA RESERVADA
 
 [PREX] -> PALAVRA RESERVADA
 
-[1] -> ERRO
+[1] -> TIPO BOOL
 [FLOAT] -> PALAVRA RESERVADA
 
-[f] -> ERRO
-[l] -> ERRO
-[o] -> ERRO
-[a] -> ERRO
-[t] -> ERRO
+[float] -> IDENTIFICADOR
 
-[F] -> ERRO
-[l] -> ERRO
-[o] -> ERRO
-[a] -> ERRO
-[t] -> ERRO
+[Float] -> IDENTIFICADOR
 
-[F] -> ERRO
-[l] -> ERRO
-[o] -> ERRO
-[a] -> ERRO
-[T] -> ERRO
+[FloaT] -> IDENTIFICADOR
 
 [2] -> ERRO
 [CHAR] -> PALAVRA RESERVADA
 
-[c] -> ERRO
-[h] -> ERRO
-[a] -> ERRO
-[r] -> ERRO
+[char] -> IDENTIFICADOR
 
-[C] -> ERRO
-[h] -> ERRO
-[a] -> ERRO
-[r] -> ERRO
+[Char] -> IDENTIFICADOR
 
-[c] -> ERRO
-[H] -> ERRO
-[A] -> ERRO
-[R] -> ERRO
+[cHAR] -> IDENTIFICADOR
 
 [3] -> ERRO
 [LISTA] -> PALAVRA RESERVADA
 
-[l] -> ERRO
-[i] -> ERRO
-[s] -> ERRO
-[t] -> ERRO
-[a] -> ERRO
+[lista] -> IDENTIFICADOR
 
-[L] -> ERRO
-[i] -> ERRO
-[s] -> ERRO
-[t] -> ERRO
-[a] -> ERRO
+[Lista] -> IDENTIFICADOR
 
-[l] -> ERRO
-[I] -> ERRO
-[S] -> ERRO
-[T] -> ERRO
-[A] -> ERRO
+[lISTA] -> IDENTIFICADOR
 
 [4] -> ERRO
 [BOOL] -> PALAVRA RESERVADA
 
-[b] -> ERRO
-[o] -> ERRO
-[o] -> ERRO
-[l] -> ERRO
+[bool] -> IDENTIFICADOR
 
-[B] -> ERRO
-[o] -> ERRO
-[o] -> ERRO
-[l] -> ERRO
+[Bool] -> IDENTIFICADOR
 
-[b] -> ERRO
-[O] -> ERRO
-[O] -> ERRO
-[L] -> ERRO
+[bOOL] -> IDENTIFICADOR
 
 [5] -> ERRO
 [CONST] -> PALAVRA RESERVADA
 
-[c] -> ERRO
-[o] -> ERRO
-[n] -> ERRO
-[s] -> ERRO
-[t] -> ERRO
+[const] -> IDENTIFICADOR
 
-[C] -> ERRO
-[o] -> ERRO
-[n] -> ERRO
-[s] -> ERRO
-[t] -> ERRO
+[Const] -> IDENTIFICADOR
 
-[c] -> ERRO
-[O] -> ERRO
-[N] -> ERRO
-[S] -> ERRO
-[T] -> ERRO
+[cONST] -> IDENTIFICADOR
 
 [6] -> ERRO
 [ESCREVER] -> PALAVRA RESERVADA
 
-[e] -> ERRO
-[s] -> ERRO
-[c] -> ERRO
-[r] -> ERRO
-[e] -> ERRO
-[v] -> ERRO
-[e] -> ERRO
-[r] -> ERRO
+[escrever] -> IDENTIFICADOR
 
-[E] -> ERRO
-[s] -> ERRO
-[c] -> ERRO
-[r] -> ERRO
-[e] -> ERRO
-[v] -> ERRO
-[e] -> ERRO
-[r] -> ERRO
+[Escrever] -> IDENTIFICADOR
 
-[e] -> ERRO
-[S] -> ERRO
-[C] -> ERRO
-[R] -> ERRO
-[E] -> ERRO
-[V] -> ERRO
-[E] -> ERRO
-[R] -> ERRO
+[eSCREVER] -> IDENTIFICADOR
 
 [7] -> ERRO
 [LER] -> PALAVRA RESERVADA
 
-[l] -> ERRO
-[e] -> ERRO
-[r] -> ERRO
+[ler] -> IDENTIFICADOR
 
-[L] -> ERRO
-[e] -> ERRO
-[r] -> ERRO
+[Ler] -> IDENTIFICADOR
 
-[l] -> ERRO
-[E] -> ERRO
-[R] -> ERRO
+[lER] -> IDENTIFICADOR
 
 [8] -> ERRO
 [SE] -> PALAVRA RESERVADA
 
-[s] -> ERRO
-[e] -> ERRO
+[se] -> IDENTIFICADOR
 
-[S] -> ERRO
-[e] -> ERRO
+[Se] -> IDENTIFICADOR
 
-[s] -> ERRO
-[E] -> ERRO
+[sE] -> IDENTIFICADOR
 
 [9] -> ERRO
 [ENTAO] -> PALAVRA RESERVADA
 
-[e] -> ERRO
-[n] -> ERRO
-[t] -> ERRO
-[a] -> ERRO
-[o] -> ERRO
+[entao] -> IDENTIFICADOR
 
-[E] -> ERRO
-[n] -> ERRO
-[t] -> ERRO
-[a] -> ERRO
-[o] -> ERRO
+[Entao] -> IDENTIFICADOR
 
-[e] -> ERRO
-[N] -> ERRO
-[T] -> ERRO
-[A] -> ERRO
-[O] -> ERRO
+[eNTAO] -> IDENTIFICADOR
 
-[1] -> ERRO
-[0] -> ERRO
+[1] -> TIPO BOOL
+[0] -> TIPO BOOL
 [SENAO] -> PALAVRA RESERVADA
 
-[s] -> ERRO
-[e] -> ERRO
-[n] -> ERRO
-[a] -> ERRO
-[o] -> ERRO
+[senao] -> IDENTIFICADOR
 
-[S] -> ERRO
-[e] -> ERRO
-[n] -> ERRO
-[a] -> ERRO
-[o] -> ERRO
+[Senao] -> IDENTIFICADOR
 
-[s] -> ERRO
-[E] -> ERRO
-[N] -> ERRO
-[A] -> ERRO
-[O] -> ERRO
+[sENAO] -> IDENTIFICADOR
 
-[1] -> ERRO
-[1] -> ERRO
+[1] -> TIPO BOOL
+[1] -> TIPO BOOL
 [ENQUANTO] -> PALAVRA RESERVADA
 
-[e] -> ERRO
-[n] -> ERRO
-[q] -> ERRO
-[u] -> ERRO
-[a] -> ERRO
-[n] -> ERRO
-[t] -> ERRO
-[o] -> ERRO
+[enquanto] -> IDENTIFICADOR
 
-[E] -> ERRO
-[n] -> ERRO
-[q] -> ERRO
-[u] -> ERRO
-[a] -> ERRO
-[n] -> ERRO
-[t] -> ERRO
-[o] -> ERRO
+[Enquanto] -> IDENTIFICADOR
 
-[e] -> ERRO
-[N] -> ERRO
-[Q] -> ERRO
-[U] -> ERRO
-[A] -> ERRO
-[N] -> ERRO
-[T] -> ERRO
-[O] -> ERRO
+[eNQUANTO] -> IDENTIFICADOR
 
-[1] -> ERRO
+[1] -> TIPO BOOL
 [2] -> ERRO
-[FAÇA] -> PALAVRA RESERVADA
+[FACA] -> PALAVRA RESERVADA
 
-[f] -> ERRO
-[a] -> ERRO
-[�] -> ERRO
-[�] -> ERRO
-[a] -> ERRO
+[faca] -> IDENTIFICADOR
 
-[F] -> ERRO
-[a] -> ERRO
-[�] -> ERRO
-[�] -> ERRO
-[a] -> ERRO
+[Faca] -> IDENTIFICADOR
 
-[f] -> ERRO
-[A] -> ERRO
-[�] -> ERRO
-[�] -> ERRO
-[A] -> ERRO
+[fACA] -> IDENTIFICADOR
 
-[1] -> ERRO
+[1] -> TIPO BOOL
 [3] -> ERRO
 [PROGRAMA] -> PALAVRA RESERVADA
 
-[p] -> ERRO
-[r] -> ERRO
-[o] -> ERRO
-[g] -> ERRO
-[r] -> ERRO
-[a] -> ERRO
-[m] -> ERRO
-[a] -> ERRO
+[programa] -> IDENTIFICADOR
 
-[P] -> ERRO
-[r] -> ERRO
-[o] -> ERRO
-[g] -> ERRO
-[r] -> ERRO
-[a] -> ERRO
-[m] -> ERRO
-[a] -> ERRO
+[Programa] -> IDENTIFICADOR
 
-[p] -> ERRO
-[R] -> ERRO
-[O] -> ERRO
-[G] -> ERRO
-[R] -> ERRO
-[A] -> ERRO
-[M] -> ERRO
-[A] -> ERRO
+[pROGRAMA] -> IDENTIFICADOR
 
-[1] -> ERRO
+[1] -> TIPO BOOL
 [4] -> ERRO
 [PREX] -> PALAVRA RESERVADA
 
-[p] -> ERRO
-[r] -> ERRO
-[e] -> ERRO
-[x] -> ERRO
+[prex] -> IDENTIFICADOR
 
-[P] -> ERRO
-[r] -> ERRO
-[e] -> ERRO
-[x] -> ERRO
+[Prex] -> IDENTIFICADOR
 
-[p] -> ERRO
-[R] -> ERRO
-[E] -> ERRO
-[X] -> ERRO
+[pREX] -> IDENTIFICADOR
