@@ -28,22 +28,21 @@
 
 [2] -> ERRO
 
-[+] -> ERRO
+[+] -> OPERADOR DE SOMA
 [2] -> ERRO
 
-[+] -> ERRO
+[+] -> OPERADOR DE SOMA
 [2] -> ERRO
 [.] -> ERRO
 
 [1.00] -> TIPO FLOAT
-[0] -> ERRO
+[0] -> TIPO BOOL
 
-[-] -> ERRO
-[ ] -> ERRO
+[-] -> OPERADOR DE SUBTRACAO
 [2.2] -> TIPO FLOAT
 
-[+] -> ERRO
+[+] -> OPERADOR DE SOMA
 [0.0] -> TIPO FLOAT
 
-[-] -> ERRO
+[-] -> OPERADOR DE SUBTRACAO
 [0.0] -> TIPO FLOAT
