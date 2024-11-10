@@ -56,10 +56,10 @@ sENAO
 enquanto
 Enquanto
 eNQUANTO
-12FAÇA
-faça
-Faça
-fAÇA
+12FACA
+faca
+Faca
+fACA
 13PROGRAMA
 programa
 Programa
