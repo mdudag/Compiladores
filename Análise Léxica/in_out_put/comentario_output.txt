@@ -16,15 +16,12 @@ WORD 123\] -> COMENTARIO
   
 \] -> COMENTARIO
 
-[A] -> ERRO
-[1] -> ERRO
+[A1] -> IDENTIFICADOR
 [\m\] -> COMENTARIO
 
 [\m\] -> COMENTARIO
-[A] -> ERRO
-[2] -> ERRO
+[A2] -> IDENTIFICADOR
 
-[A] -> ERRO
-[3] -> ERRO
+[A3] -> IDENTIFICADOR
 [\
 m\] -> COMENTARIO
