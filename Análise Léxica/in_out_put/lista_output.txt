@@ -1,47 +1,38 @@
-['a'$] -> TIPO LISTA
+['a' $] -> TIPO LISTA
 
-['A'$] -> TIPO LISTA
+['A' $] -> TIPO LISTA
 
-['b' 'c' 'd'$] -> TIPO LISTA
+['b' 'c' 'd' $] -> TIPO LISTA
 
-['@'$] -> TIPO LISTA
-['_'$] -> TIPO LISTA
+['@' '_' $] -> TIPO LISTA
 
-[1.4$] -> TIPO LISTA
+[1.4 $] -> TIPO LISTA
 
-[2.0 1.23 4.5$] -> TIPO LISTA
+[2.0 1.23 4.5 $] -> TIPO LISTA
 
 ['a'] -> TIPO CHAR
-[ ] -> ERRO
 ['b'] -> TIPO CHAR
 
 ['C'] -> TIPO CHAR
 ['D'] -> TIPO CHAR
 
 ['E'] -> TIPO CHAR
-[ ] -> ERRO
 [$] -> ERRO
 
 [f] -> IDENTIFICADOR
-[ ] -> ERRO
 [G] -> IDENTIFICADOR
 [$] -> ERRO
 
 [3.9] -> TIPO FLOAT
-[ ] -> ERRO
 [$] -> ERRO
 
 [4.56] -> TIPO FLOAT
-[ ] -> ERRO
 [4.75] -> TIPO FLOAT
 [6] -> ERRO
 [$] -> ERRO
 
 [5.7] -> TIPO FLOAT
-[ ] -> ERRO
 [5.12] -> TIPO FLOAT
 
 [6.4] -> TIPO FLOAT
-[ ] -> ERRO
-[ ] -> ERRO
-[6.2$] -> TIPO LISTA
+[6.2 $] -> TIPO LISTA
