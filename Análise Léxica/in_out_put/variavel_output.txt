@@ -1,0 +1,11 @@
+[CHAR caractere1, carctere2, carctere3;] -> VARIAVEL
+
+[CHAR caractere4;] -> VARIAVEL
+
+[FLOAT num1, num2;] -> VARIAVEL
+
+[BOOL isTrue, isFalse;] -> VARIAVEL
+
+[LISTA CHAR nome1(10), Type(90);] -> VARIAVEL
+
+[LISTA FLOAT valores(5);] -> VARIAVEL

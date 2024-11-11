@@ -1,0 +1,9 @@
+CONST CHAR caractere1 'a';
+CONST CHAR caractere4 '@';
+CONST FLOAT num1 300.90;
+CONST FLOAT num2 0.00;
+CONST BOOL isTrue 1;
+CONST BOOL isFalse 0;
+CONST LISTA CHAR nome1(10) 'O' 'i' ',' ' ' 'A' 'n' 'a' '$';
+CONST LISTA CHAR nome1(10) "Oi, Ana";
+CONST LISTA FLOAT valores(5) 90.99 0.0 +0.3 -0.10 '$';

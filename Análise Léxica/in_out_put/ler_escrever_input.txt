@@ -1,0 +1,2 @@
+LER nome idade isTrue; 
+ESCREVER nome idade isTrue;

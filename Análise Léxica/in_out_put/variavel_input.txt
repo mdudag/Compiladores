@@ -1,0 +1,6 @@
+CHAR caractere1, carctere2, carctere3;
+CHAR caractere4;
+FLOAT num1, num2;
+BOOL isTrue, isFalse;
+LISTA CHAR nome1(10), Type(90);
+LISTA FLOAT valores(5);
