@@ -1,14 +1,20 @@
-['a' $] -> TIPO LISTA
+['a' '$'] -> TIPO LISTA
 
-['A' $] -> TIPO LISTA
+['A' '$'] -> TIPO LISTA
 
-['b' 'c' 'd' $] -> TIPO LISTA
+['b' 'c' 'd' '$'] -> TIPO LISTA
 
-['@' '_' $] -> TIPO LISTA
+['@' '_' '$'] -> TIPO LISTA
 
-[1.4 $] -> TIPO LISTA
+['M' 'a' 'r' 'i' 'a' ' ' 'd' 'a' ' ' 'S' 'i' 'l' 'v' 'a' '$'] -> TIPO LISTA
 
-[2.0 1.23 4.5 $] -> TIPO LISTA
+["Maria da Silva"] -> TIPO LISTA
+
+["Hello, World :D"] -> TIPO LISTA
+
+[1.4 '$'] -> TIPO LISTA
+
+[2.0 1.23 4.5 '$'] -> TIPO LISTA
 
 ['a'] -> TIPO CHAR
 ['b'] -> TIPO CHAR
@@ -19,20 +25,27 @@
 ['E'] -> TIPO CHAR
 [$] -> ERRO
 
-[f] -> IDENTIFICADOR
-[G] -> IDENTIFICADOR
+['E'] -> TIPO CHAR
+['$'] -> TIPO CHAR
+
+['E'] -> TIPO CHAR
 [$] -> ERRO
 
+[f] -> IDENTIFICADOR
+[G] -> IDENTIFICADOR
+['$'] -> TIPO CHAR
+
 [3.9] -> TIPO FLOAT
-[$] -> ERRO
+['$'] -> TIPO CHAR
 
 [4.56] -> TIPO FLOAT
 [4.75] -> TIPO FLOAT
 [6] -> ERRO
-[$] -> ERRO
+['$'] -> TIPO CHAR
 
 [5.7] -> TIPO FLOAT
 [5.12] -> TIPO FLOAT
 
 [6.4] -> TIPO FLOAT
-[6.2 $] -> TIPO LISTA
+[6.2] -> TIPO FLOAT
+[$] -> ERRO
