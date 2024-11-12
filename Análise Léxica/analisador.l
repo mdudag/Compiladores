@@ -1,5 +1,5 @@
 %{
-   // Para executar: flex analisador.l; gcc -o lex lex.yy.c -ll; ./lex < in_out_puts/bool_input.txt > output.txt
+   // Para executar: flex analisador.l; gcc -o lex lex.yy.c -ll; ./lex < in_out_put/bool_input.txt > output.txt
    // Obs: Trocando "bool" pelo nome do arquivo desejado
    
    #include <stdio.h>
