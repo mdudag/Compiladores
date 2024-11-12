@@ -11,11 +11,21 @@ ID [a-zA-Z][a-zA-Z0-9]{0,9}
 
 FLOAT ([+-]?([1-9][0-9]*[.][0-9][0-9]?|[0][.]([1-9][0-9]?|[0-9][1-9]))|[0][.][0][0]?)
 CHAR '([a-zA-Z0-9@_#+*-/\\.$: ]|\\n)'
-LISTA (({CHAR}[ ])+|({FLOAT}[ ])+)'$'|["]([a-zA-Z0-9@_#+*-/\\.$: ]|\\n)+["]
+LISTA_CHAR ({CHAR}[ ])+'$'|["]([a-zA-Z0-9@_#+*-/\\.$: ]|\\n)+["]
+LISTA_FLOAT ({FLOAT}[ ])+'$'
 BOOL [01]
 
-VAR ((CHAR|FLOAT|BOOL)[ ]{ID}([,][ ]{ID})*|LISTA[ ](CHAR|FLOAT)[ ]{ID}[(][0-9]+[)]([,][ ]{ID}[(][0-9]+[)])*)[;]
-CONSTANTE CONST[ ](CHAR[ ]{ID}[ ]{CHAR}|FLOAT[ ]{ID}[ ]{FLOAT}|BOOL[ ]{ID}[ ]{BOOL}|LISTA[ ](CHAR|FLOAT)[ ]{ID}[(][0-9]+[)][ ]{LISTA})[;]
+VAR_FLOAT FLOAT[ ]{ID}([,][ ]{ID})*[;]
+VAR_BOOL BOOL[ ]{ID}([,][ ]{ID})*[;]
+VAR_CHAR CHAR[ ]{ID}([,][ ]{ID})*[;]
+VAR_LISTA_CHAR LISTA[ ]CHAR[ ]{ID}[(][0-9]+[)]([,][ ]{ID}[(][0-9]+[)])*[;]
+VAR_LISTA_FLOAT LISTA[ ]FLOAT[ ]{ID}[(][0-9]+[)]([,][ ]{ID}[(][0-9]+[)])*[;]
+
+CONST_FLOAT CONST[ ]FLOAT[ ]{ID}[ ]{FLOAT}[;]
+CONST_BOOL CONST[ ]BOOL[ ]{ID}[ ]{BOOL}[;]
+CONST_CHAR CONST[ ]CHAR[ ]{ID}[ ]{CHAR}[;]
+CONST_LISTA_CHAR CONST[ ]LISTA[ ]CHAR[ ]{ID}[(][0-9]+[)][ ]{LISTA_CHAR}[;]
+CONST_LISTA_FLOAT CONST[ ]LISTA[ ]FLOAT[ ]{ID}[(][0-9]+[)][ ]{LISTA_FLOAT}[;]
 
 %%
 
@@ -25,10 +35,19 @@ CONSTANTE CONST[ ](CHAR[ ]{ID}[ ]{CHAR}|FLOAT[ ]{ID}[ ]{FLOAT}|BOOL[ ]{ID}[ ]{BO
 {ID}                {printf("[%s] -> IDENTIFICADOR\n", yytext);}
 {FLOAT}             {printf("[%s] -> TIPO FLOAT\n", yytext);}
 {CHAR}              {printf("[%s] -> TIPO CHAR\n", yytext);}
-{LISTA}             {printf("[%s] -> TIPO LISTA\n", yytext);}
+{LISTA_CHAR}        {printf("[%s] -> TIPO LISTA CHAR\n", yytext);}
+{LISTA_FLOAT}       {printf("[%s] -> TIPO LISTA FLOAT\n", yytext);}
 {BOOL}              {printf("[%s] -> TIPO BOOL\n", yytext);}
-{VAR}               {printf("[%s] -> DECLARACAO DE VARIAVEL\n", yytext);}
-{CONSTANTE}         {printf("[%s] -> DECLARACAO DE CONSTANTE\n", yytext);}
+{VAR_FLOAT}         {printf("[%s] -> VARIAVEL TIPO FLOAT\n", yytext);}
+{VAR_BOOL}          {printf("[%s] -> VARIAVEL TIPO BOOL\n", yytext);}
+{VAR_CHAR}          {printf("[%s] -> VARIAVEL TIPO CHAR\n", yytext);}
+{VAR_LISTA_CHAR}    {printf("[%s] -> VARIAVEL TIPO LISTA CHAR\n", yytext);}
+{VAR_LISTA_FLOAT}   {printf("[%s] -> VARIAVEL TIPO LISTA FLOAT\n", yytext);}
+{CONST_FLOAT}       {printf("[%s] -> CONSTANTE TIPO FLOAT\n", yytext);}
+{CONST_BOOL}        {printf("[%s] -> CONSTANTE TIPO BOOL\n", yytext);}
+{CONST_CHAR}        {printf("[%s] -> CONSTANTE TIPO CHAR\n", yytext);}
+{CONST_LISTA_CHAR}  {printf("[%s] -> CONSTANTE TIPO LISTA CHAR\n", yytext);}
+{CONST_LISTA_FLOAT} {printf("[%s] -> CONSTANTE TIPO LISTA FLOAT\n", yytext);}
 [;]                 {printf("[%s] -> SINAL DE FIM DE INSTRUCAO\n", yytext);}
 [(]                 {printf("[%s] -> PARENTESE A ESQUERDA\n", yytext);}
 [)]                 {printf("[%s] -> PARENTESE A DIREITA\n", yytext);}
