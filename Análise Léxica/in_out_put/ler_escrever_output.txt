@@ -1,3 +1,0 @@
-[LER nome idade isTrue;] -> COMANDO DE LEITURA
-
-[ESCREVER nome idade isTrue;] -> COMANDO DE ESCRITA
