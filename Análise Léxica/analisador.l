@@ -29,8 +29,6 @@ CONSTANTE CONST[ ](CHAR[ ]{ID}[ ]{CHAR}|FLOAT[ ]{ID}[ ]{FLOAT}|BOOL[ ]{ID}[ ]{BO
 {BOOL}              {printf("[%s] -> TIPO BOOL\n", yytext);}
 {VAR}               {printf("[%s] -> DECLARACAO DE VARIAVEL\n", yytext);}
 {CONSTANTE}         {printf("[%s] -> DECLARACAO DE CONSTANTE\n", yytext);}
-{LEITURA}           {printf("[%s] -> COMANDO DE LEITURA\n", yytext);}
-{ESCRITA}           {printf("[%s] -> COMANDO DE ESCRITA\n", yytext);}
 [;]                 {printf("[%s] -> SINAL DE FIM DE INSTRUCAO\n", yytext);}
 [(]                 {printf("[%s] -> PARENTESE A ESQUERDA\n", yytext);}
 [)]                 {printf("[%s] -> PARENTESE A DIREITA\n", yytext);}
