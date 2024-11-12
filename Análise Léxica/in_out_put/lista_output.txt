@@ -1,20 +1,20 @@
-['a' '$'] -> TIPO LISTA
+['a' '$'] -> TIPO LISTA CHAR
 
-['A' '$'] -> TIPO LISTA
+['A' '$'] -> TIPO LISTA CHAR
 
-['b' 'c' 'd' '$'] -> TIPO LISTA
+['b' 'c' 'd' '$'] -> TIPO LISTA CHAR
 
-['@' '_' '$'] -> TIPO LISTA
+['@' '_' '$'] -> TIPO LISTA CHAR
 
-['M' 'a' 'r' 'i' 'a' ' ' 'd' 'a' ' ' 'S' 'i' 'l' 'v' 'a' '$'] -> TIPO LISTA
+['M' 'a' 'r' 'i' 'a' ' ' 'd' 'a' ' ' 'S' 'i' 'l' 'v' 'a' '$'] -> TIPO LISTA CHAR
 
-["Maria da Silva"] -> TIPO LISTA
+["Maria da Silva"] -> TIPO LISTA CHAR
 
-["Hello, World :D"] -> TIPO LISTA
+["Hello, World :D"] -> TIPO LISTA CHAR
 
-[1.4 '$'] -> TIPO LISTA
+[1.4 '$'] -> TIPO LISTA FLOAT
 
-[2.0 1.23 4.5 '$'] -> TIPO LISTA
+[2.0 1.23 4.5 '$'] -> TIPO LISTA FLOAT
 
 ['a'] -> TIPO CHAR
 ['b'] -> TIPO CHAR
