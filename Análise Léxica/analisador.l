@@ -16,8 +16,6 @@ BOOL [01]
 
 VAR ((CHAR|FLOAT|BOOL)[ ]{ID}([,][ ]{ID})*|LISTA[ ](CHAR|FLOAT)[ ]{ID}[(][0-9]+[)]([,][ ]{ID}[(][0-9]+[)])*)[;]
 CONSTANTE CONST[ ](CHAR[ ]{ID}[ ]{CHAR}|FLOAT[ ]{ID}[ ]{FLOAT}|BOOL[ ]{ID}[ ]{BOOL}|LISTA[ ](CHAR|FLOAT)[ ]{ID}[(][0-9]+[)][ ]{LISTA})[;]
-LEITURA LER[ ]{ID}([ ]{ID})*[;]
-ESCRITA ESCREVER[ ]{ID}([ ]{ID})*[;]
 
 %%
 
