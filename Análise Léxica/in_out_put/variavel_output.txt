@@ -1,11 +1,11 @@
-[CHAR caractere1, carctere2, carctere3;] -> VARIAVEL
+[CHAR caractere1, carctere2, carctere3;] -> VARIAVEL TIPO CHAR
 
-[CHAR caractere4;] -> VARIAVEL
+[CHAR caractere4;] -> VARIAVEL TIPO CHAR
 
-[FLOAT num1, num2;] -> VARIAVEL
+[FLOAT num1, num2;] -> VARIAVEL TIPO FLOAT
 
-[BOOL isTrue, isFalse;] -> VARIAVEL
+[BOOL isTrue, isFalse;] -> VARIAVEL TIPO BOOL
 
-[LISTA CHAR nome1(10), Type(90);] -> VARIAVEL
+[LISTA CHAR nome1(10), Type(90);] -> VARIAVEL TIPO LISTA CHAR
 
-[LISTA FLOAT valores(5);] -> VARIAVEL
+[LISTA FLOAT valores(5);] -> VARIAVEL TIPO LISTA FLOAT
