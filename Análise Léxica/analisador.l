@@ -1,6 +1,11 @@
 %{
-   // Para executar: flex analisador.l; gcc -o lex lex.yy.c -ll; ./lex < in_out_put/bool_input.txt > output.txt
-   // Obs: Trocando "bool" pelo nome do arquivo desejado
+   // Para executar no linux: 
+   //    - flex analisador.l; gcc -o lex lex.yy.c -ll
+   //    - Ver resultado na linha de comando: ./lex in_out_put/Exemplo01.prex output.txt
+   //    - Ver resultado no arquivo de saída: ./lex in_out_put/Exemplo01.prex output.txt > output.txt
+
+   // Para executar no windows no programa Cygwin64: inserir o caminho da pasta onde está o arquivo.l (ex: cd /cydrive/c/Users/(...); flex lex.l; gcc lex.yy.c -o lex - lfl; ./lex)
+   // Para abrir o input e o output no terminal Cygwin: ./lex input.txt output.txt; e no próximo passo: cat output.txt
    
    #include <stdio.h>
 %}
@@ -64,21 +69,32 @@ CONST_LISTA_FLOAT CONST[ ]LISTA[ ]FLOAT[ ]{ID}[(][0-9]+[)][ ]{LISTA_FLOAT}[;]
 [<]                 {printf("[%s] -> OPERADOR DE MENOR QUE\n", yytext);}
 [=][=]              {printf("[%s] -> OPERADOR DE IGUALDADE\n", yytext);}
 [~][=]              {printf("[%s] -> OPERADOR DE DIFERENCA\n", yytext);}
-" "                 
+[ \t]                 
 .                   {printf("[%s] -> ERRO\n", yytext);}
 
 %%
 
-int main(void) {
-   FILE *f = fopen("output.txt", "w");
-
-   if (!f) {
-      perror("Erro ao abrir arquivo!\n");
+int main(int argc, char **argv) {
+   if(argc < 3){
+	   printf("Os parametros corretos sao: %s <arquivo de entrada> <arquivo de saida>\n", argv[0]);
+   }
+   
+   FILE *input = fopen(argv[1],"r");
+   if(!input){
+      printf("Erro ao abrir arquivo de entrada\n");
+      return 1;
+   }
+   
+   FILE *output = fopen(argv[2],"w");
+   if(!output){
+      printf("Erro ao abrir arquivo de saida\n");
       return 1;
    }
 
+   yyin = input;
    yylex();
 
-   fclose(f);
+   fclose(input);
+   fclose(output);
    return 0;
 }
