@@ -76,7 +76,7 @@ CONST_LISTA_FLOAT CONST[ ]LISTA[ ]FLOAT[ ]{ID}[(][0-9]+[)][ ]{LISTA_FLOAT}[;]
 
 int main(int argc, char **argv) {
    if(argc < 3){
-	   printf("Os parametros corretos sao: %s <arquivo de entrada> <arquivo de saida>\n", argv[0]);
+	printf("Os parametros corretos sao: %s <arquivo de entrada> <arquivo de saida>\n", argv[0]);
    }
    
    FILE *input = fopen(argv[1],"r");
