@@ -5,7 +5,7 @@
    //    - Ver resultado no arquivo de saída: ./lex in_out_put/Exemplo01.prex output.txt > output.txt
 
    // Para executar no windows no programa Cygwin64: inserir o caminho da pasta onde está o arquivo.l (ex: cd /cydrive/c/Users/(...); flex lex.l; gcc lex.yy.c -o lex - lfl; ./lex)
-   // Para abrir o input e o output no terminal Cygwin: ./lex input.txt output.txt; e no próximo passo: cat output.txt
+   // Para abrir o input e o output no terminal Cygwin: ./lex input.txt output.txt
    
    #include <stdio.h>
 %}
