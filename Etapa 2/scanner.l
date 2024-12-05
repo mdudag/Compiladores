@@ -30,7 +30,7 @@ VAR_FLOAT FLOAT[ ]{ID}([,][ ]{ID})*[;]
 ")"                 {printf("[%s] -> PARENTESE A DIREITA\n", yytext);}
 "{"                 {printf("[%s] -> CHAVE A ESQUERDA\n", yytext);}
 "}"                 {printf("[%s] -> CHAVE A DIREITA\n", yytext);}
-";"	              {printf("[%s] -> PONTO VIRGULA\n", yytext);}
+";"	            {printf("[%s] -> PONTO VIRGULA\n", yytext);}
 .                   {printf("[%s] -> ERRO\n", yytext);}
 
 %%
