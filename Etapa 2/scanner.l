@@ -35,10 +35,6 @@ VAR_FLOAT FLOAT[ ]{ID}([,][ ]{ID})*[;]
 
 %%
 
-int yywrap(void) {
-   return 1;
-}
-
 int main(int argc, char **argv) {
    if(argc < 3){
 	   printf("Os parametros corretos sao: %s <arquivo de entrada> <arquivo de saida>\n", argv[0]);
@@ -62,4 +58,8 @@ int main(int argc, char **argv) {
    fclose(input);
    fclose(output);
    return 0;
+}
+
+int yywrap(void) {
+   return 1;
 }
