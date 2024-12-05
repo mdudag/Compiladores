@@ -1,0 +1,46 @@
+[\ EXEMPLO DE CODIGO PREX
+   Objetivo: receber dois numeros, realizar a soma e exibir no video.
+   Entrada: dois numeros.
+  Saida: o resultado da soma destes dois numeros.
+ \] -> COMENTARIO
+
+[PROGRAMA] -> PALAVRA RESERVADA
+[PREX] -> PALAVRA RESERVADA
+[{] -> CHAVE A ESQUERDA
+
+[FLOAT n1, n2, soma;] -> VARIAVEL TIPO FLOAT
+
+[ESCREVER] -> PALAVRA RESERVADA
+[textoEntra] -> IDENTIFICADOR
+[da] -> IDENTIFICADOR
+[;] -> PONTO VIRGULA
+
+[LER] -> PALAVRA RESERVADA
+[n1] -> IDENTIFICADOR
+[;] -> PONTO VIRGULA
+
+[ESCREVER] -> PALAVRA RESERVADA
+[textoEntra] -> IDENTIFICADOR
+[da] -> IDENTIFICADOR
+[;] -> PONTO VIRGULA
+
+[LER] -> PALAVRA RESERVADA
+[n2] -> IDENTIFICADOR
+[;] -> PONTO VIRGULA
+
+[soma] -> IDENTIFICADOR
+[=] -> OPERADOR DE ATRIBUICAO
+[+] -> OPERADOR DE SOMA
+[n1] -> IDENTIFICADOR
+[n2] -> IDENTIFICADOR
+[;] -> PONTO VIRGULA
+
+[ESCREVER] -> PALAVRA RESERVADA
+[textoSaida] -> IDENTIFICADOR
+[;] -> PONTO VIRGULA
+
+[ESCREVER] -> PALAVRA RESERVADA
+[soma] -> IDENTIFICADOR
+[;] -> PONTO VIRGULA
+
+[}] -> CHAVE A DIREITA
