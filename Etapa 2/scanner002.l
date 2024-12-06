@@ -15,7 +15,7 @@
 "*"                          {return '*';}
 "/"                          {return '/';}
 [0-9]+                       {yyval.fval = atof(yytext); return NUMERO;}
-[a-zA-Z] [a-zA-Z0-9]*{0,9}   {yyval.sval = strdup(yytext); return ID;}
+[a-zA-Z][a-zA-Z0-9]*{0,9}   {yyval.sval = strdup(yytext); return ID;}
 .                            {/* ignora símbolos inválidos */}
 
 %%
