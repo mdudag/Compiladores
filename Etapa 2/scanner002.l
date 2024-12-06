@@ -6,12 +6,16 @@
 
 %%
 
-[\t]+                   {; /* ignora espaÁos em branco*/}
-"leitura"               {return LEITURA;}
-"escrita"               {return ESCRITA;}
-"float"                 {return FLOAT;}
-[0-9]+                  {yyval.fval = atof(yytext); return NUMERO;}
-[a-zA-Z] [a-zA-Z0-9]*   {yyval.sval = strdup(yytext); return ID;}
-.                       {/* ignora sÌmbolos inv·lidos */}
+[\t]+                        {; /* ignora espa√ßos em branco*/}
+"leitura"                    {return LEITURA;}
+"escrita"                    {return ESCRITA;}
+"float"                      {return FLOAT;}
+"+"                          {return '+';}
+"-"                          {return '-';}
+"*"                          {return '*';}
+"/"                          {return '/';}
+[0-9]+                       {yyval.fval = atof(yytext); return NUMERO;}
+[a-zA-Z] [a-zA-Z0-9]*{0,9}   {yyval.sval = strdup(yytext); return ID;}
+.                            {/* ignora s√≠mbolos inv√°lidos */}
 
 %%
