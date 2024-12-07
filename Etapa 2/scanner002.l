@@ -1,21 +1,22 @@
 %{
-
 #include"parser.tab.h"
-
-%}
+}%
 
 %%
-
-[\t]+                        {; /* ignora espaços em branco*/}
-"leitura"                    {return LEITURA;}
+[\t]+                        {/* ignora espaços em branco e quebras de linha */}
+[a-zA-Z][a-zA-Z0-9]{0,9}     {return ID;}
 "escrita"                    {return ESCRITA;}
+"leitura"                    {return LEITURA;}
 "float"                      {return FLOAT;}
 "+"                          {return '+';}
 "-"                          {return '-';}
 "*"                          {return '*';}
 "/"                          {return '/';}
-[0-9]+                       {yyval.fval = atof(yytext); return NUMERO;}
-[a-zA-Z][a-zA-Z0-9]{0,9}   {yyval.sval = strdup(yytext); return ID;}
+"("                          {return '(';}
+")"                          {return ')';}  
+"{"                          {return '{';}
+"}"                          {return '}';}
+[0-9]+                       {return INT;}
+";"                          {return PV;}
 .                            {/* ignora símbolos inválidos */}
-
 %%
