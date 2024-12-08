@@ -2,13 +2,13 @@
 
 int main() {
 
-   float n1, n2, n3;
+   float n1, n2, n3, n4;
    float soma;
    n1 = n2;
    n1 = 26.00;
    printf("%s, %s, %s, %s\n", n1, n2, n3, n4);
    scanf("%s %s %s", &n1, &n2, &n3);
-   printf("%s\n", textoEntra);
+   printf("%s\n", soma);
    scanf("%s", &n2);
    soma = n1 + n2;
    soma = n1 * n2;
