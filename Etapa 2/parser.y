@@ -1,7 +1,9 @@
 %{
 
-// Para executar no linux: bison -d parser.y; flex scanner.l; gcc -o parser parser.tab.c lex.yy.c -lfl; ./parser
-
+// Para executar no linux:
+//      bison -d parser.y; flex scanner.l; gcc -o parser parser.tab.c lex.yy.c -lfl; 
+//      Executar: ./parser input.txt output.txt > main.c
+ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
