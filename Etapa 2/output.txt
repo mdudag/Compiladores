@@ -1,46 +1,25 @@
-[\ EXEMPLO DE CODIGO PREX
-   Objetivo: receber dois numeros, realizar a soma e exibir no video.
-   Entrada: dois numeros.
-  Saida: o resultado da soma destes dois numeros.
- \] -> COMENTARIO
+#include <stdio.h>
 
-[PROGRAMA] -> PALAVRA RESERVADA
-[PREX] -> PALAVRA RESERVADA
-[{] -> CHAVE A ESQUERDA
+int main() {
 
-[FLOAT n1, n2, soma;] -> VARIAVEL TIPO FLOAT
+   printf("%s, %s, %s, %s\n", n1, n2, n3, n4);
+   scanf("%s %s %s", &n1, &n2, &n3);
+   n1 = n2;
+   n1 = 26.00;
+   printf("%s\n", textoEntra);
+   scanf("%s", &n2);
+   soma = n1 + n2;
+   soma = n1 * n2;
+   soma = n1 + n2 * n2;
+   soma = n1 + n1 + n2;
+   soma = n1 + n1 + n2 * n2;
+   soma = n1 + n2 + n1 + n2 + n2 / n2 / n2 * n1 * n2;
+   soma = -2.60 + 9.00;
+   soma = 0.00 * 1.00;
+   soma = 3.60 + 23.90 * -3.50;
+   soma = -9.00 + 100.40 + 3.50;
+   soma = 10.40 + -0.04 + -0.90 * 0.05;
+   soma = 4.50 + 123.90 + -0.03 + 3.56 + -0.98 / 3.60 / 2.50 * 3.50 * 1.00;
 
-[ESCREVER] -> PALAVRA RESERVADA
-[textoEntra] -> IDENTIFICADOR
-[da] -> IDENTIFICADOR
-[;] -> PONTO VIRGULA
-
-[LER] -> PALAVRA RESERVADA
-[n1] -> IDENTIFICADOR
-[;] -> PONTO VIRGULA
-
-[ESCREVER] -> PALAVRA RESERVADA
-[textoEntra] -> IDENTIFICADOR
-[da] -> IDENTIFICADOR
-[;] -> PONTO VIRGULA
-
-[LER] -> PALAVRA RESERVADA
-[n2] -> IDENTIFICADOR
-[;] -> PONTO VIRGULA
-
-[soma] -> IDENTIFICADOR
-[=] -> OPERADOR DE ATRIBUICAO
-[+] -> OPERADOR DE SOMA
-[n1] -> IDENTIFICADOR
-[n2] -> IDENTIFICADOR
-[;] -> PONTO VIRGULA
-
-[ESCREVER] -> PALAVRA RESERVADA
-[textoSaida] -> IDENTIFICADOR
-[;] -> PONTO VIRGULA
-
-[ESCREVER] -> PALAVRA RESERVADA
-[soma] -> IDENTIFICADOR
-[;] -> PONTO VIRGULA
-
-[}] -> CHAVE A DIREITA
+   return 0;
+}
