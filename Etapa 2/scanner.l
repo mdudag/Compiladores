@@ -1,22 +1,22 @@
 %{
-#include"parser.tab.h"
-}%
+#include "parser.tab.h"
+%}
 
 %%
-[\t]+                        {/* ignora espaços em branco e quebras de linha */}
-[a-zA-Z][a-zA-Z0-9]{0,9}     {return ID;}
-"escrita"                    {return ESCRITA;}
-"leitura"                    {return LEITURA;}
-"float"                      {return FLOAT;}
-"+"                          {return '+';}
-"-"                          {return '-';}
-"*"                          {return '*';}
-"/"                          {return '/';}
-"("                          {return '(';}
-")"                          {return ')';}  
-"{"                          {return '{';}
-"}"                          {return '}';}
-[0-9]+                       {return INT;}
-";"                          {return PV;}
-.                            {/* ignora símbolos inválidos */}
+[ \t\n\r]                     {/* ignora espaços e quebras de linha e tabs */}
+"leitura"                      return LEITURA;
+"escrita"                      return ESCRITA
+"float"                        return FLOAT;
+[a-zA-Z][a-zA-Z0-9]{0,9}       return ID;
+[0-9]+                         return NUM;
+"+"                            return '+';
+"-"                            return '-';
+"*"                            return '*';
+"/"                            return '/';
+"("                            return '(';
+")"                            return ')';
+"{"                            return '{';
+"}"                            return '}';
+";"                            return PV;
+.                              {/* ignora caracteres inválidos */}
 %%
