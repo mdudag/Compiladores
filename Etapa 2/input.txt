@@ -1,11 +1,11 @@
 PROGRAMA PREX {
-	FLOAT n1, n2, n3;
+	FLOAT n1, n2, n3, n4;
 	FLOAT soma;
 	n1 = n2;
 	n1 = 26.0;
 	ESCREVER n1 n2 n3 n4;
 	LER n1 n2 n3;
-	ESCREVER textoEntra;
+	ESCREVER soma;
 	LER n2;
 	soma = + n1 n2;
 	soma = * n1 n2;
