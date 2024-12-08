@@ -1,15 +1,20 @@
-\ EXEMPLO DE CODIGO PREX
-   Objetivo: receber dois numeros, realizar a soma e exibir no video.
-   Entrada: dois numeros.
-  Saida: o resultado da soma destes dois numeros.
- \
 PROGRAMA PREX {
-	FLOAT n1, n2, soma;
-	ESCREVER textoEntrada;
-	LER n1;
-	ESCREVER textoEntrada;
+	ESCREVER n1 n2 n3 n4;
+	LER n1 n2 n3;
+	n1 = n2;
+	n1 = 26.0;
+	ESCREVER textoEntra;
 	LER n2;
 	soma = + n1 n2;
-	ESCREVER textoSaida;
-	ESCREVER soma;
+	soma = * n1 n2;
+	soma = + n1 * n2 n2;
+	soma = + n1 n1 n2;
+	soma = + n1 n1 * n2 n2;
+	soma = + n1 n2 n1 n2 / n2 n2 * n2 n1 n2;
+	soma = + -2.6 9.0;
+	soma = * 0.0 1.0;
+	soma = + 3.6 * 23.90 -3.5;
+	soma = + -9.00 100.4 +3.5;
+	soma = + 10.4 -0.04 * -0.90 +0.05;
+	soma = + 4.5 123.90 -0.03 3.56 / -0.98 +3.6 * 2.5 3.5 1.00;
 }
